@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HetDierenrijk", "AdvancedC_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hospital", "Hospital\Hospital.csproj", "{6ADA9196-27A1-4A48-8210-D45413B16397}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bookmark Manager", "..\AdvancedC_Chapter4\Bookmark Manager\Bookmark Manager.csproj", "{0522FBF9-7B38-43A7-8366-3EDFF26C8FA3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{6ADA9196-27A1-4A48-8210-D45413B16397}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6ADA9196-27A1-4A48-8210-D45413B16397}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6ADA9196-27A1-4A48-8210-D45413B16397}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0522FBF9-7B38-43A7-8366-3EDFF26C8FA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0522FBF9-7B38-43A7-8366-3EDFF26C8FA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0522FBF9-7B38-43A7-8366-3EDFF26C8FA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0522FBF9-7B38-43A7-8366-3EDFF26C8FA3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
