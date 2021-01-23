@@ -8,7 +8,7 @@ namespace Hospital
 {
     class InsuredPatient:Patient
     {
-        public override int CalculateCost()
+        public override decimal CalculateCost()
         {
             return base.CalculateCost()-(base.CalculateCost()/10);
         }

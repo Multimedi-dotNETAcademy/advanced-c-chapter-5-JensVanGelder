@@ -11,7 +11,7 @@ namespace Hospital
         public string Name { get; set; }
         public int HoursInHospital { get; set; }
 
-        public virtual int CalculateCost()
+        public virtual decimal CalculateCost()
         {
             return 50 + (20 * HoursInHospital);
         }
