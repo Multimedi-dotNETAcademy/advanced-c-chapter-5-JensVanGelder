@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hospital", "Hospital\Hospit
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bookmark Manager", "Bookmark Manager\Bookmark Manager.csproj", "{0522FBF9-7B38-43A7-8366-3EDFF26C8FA3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ballspel", "Ballspel\Ballspel.csproj", "{38B242B5-B831-4DD1-93C3-202BF81F87A6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{0522FBF9-7B38-43A7-8366-3EDFF26C8FA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0522FBF9-7B38-43A7-8366-3EDFF26C8FA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0522FBF9-7B38-43A7-8366-3EDFF26C8FA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38B242B5-B831-4DD1-93C3-202BF81F87A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38B242B5-B831-4DD1-93C3-202BF81F87A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38B242B5-B831-4DD1-93C3-202BF81F87A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38B242B5-B831-4DD1-93C3-202BF81F87A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
