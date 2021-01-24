@@ -9,9 +9,10 @@
         {
             //Give birth
         }
+
         public override string ShowInfo()
         {
-            return base.ShowInfo()+$", Hair Colour: {HairColour}, {(IsPregnant ? "Is Pregnant" : "")}";
+            return base.ShowInfo() + $", Hair Colour: {HairColour}, {(IsPregnant ? "Is Pregnant" : "")}";
         }
     }
 }

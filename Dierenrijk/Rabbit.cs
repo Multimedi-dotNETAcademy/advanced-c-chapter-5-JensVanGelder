@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace AdvancedC_Chapter1
+﻿namespace AdvancedC_Chapter1
 {
-    class Rabbit:Mammal
+    internal class Rabbit : Mammal
     {
         public int CarrotsEaten { get; set; }
 
@@ -14,10 +8,11 @@ namespace AdvancedC_Chapter1
         {
             return "Hoppity Hop";
         }
+
         public override string ShowInfo()
         {
             string add = $", Has eaten {CarrotsEaten} carrots";
-            return base.ShowInfo() +add;
+            return base.ShowInfo() + add;
         }
 
         public override string MakeSound()

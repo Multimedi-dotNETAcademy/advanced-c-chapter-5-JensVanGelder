@@ -5,8 +5,8 @@
         public string Name { get; set; }
 
         public virtual string Move()
-        { 
-            return ""; 
+        {
+            return "";
         }
 
         public virtual string MakeSound()
@@ -15,8 +15,8 @@
         }
 
         public virtual string ShowInfo()
-        { 
-            return $"{Name}"; 
+        {
+            return $"{Name}";
         }
     }
 }

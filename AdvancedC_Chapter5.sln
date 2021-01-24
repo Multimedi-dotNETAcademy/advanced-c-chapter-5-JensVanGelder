@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HetDierenrijk", "AdvancedC_Chapter1\HetDierenrijk.csproj", "{14D0B2D3-4CAF-4297-9522-EA591F7729C4}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hospital", "Hospital\Hospital.csproj", "{6ADA9196-27A1-4A48-8210-D45413B16397}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bookmark Manager", "Bookmark Manager\Bookmark Manager.csproj", "{0522FBF9-7B38-43A7-8366-3EDFF26C8FA3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ballspel", "Ballspel\Ballspel.csproj", "{38B242B5-B831-4DD1-93C3-202BF81F87A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ballspel", "Ballspel\Ballspel.csproj", "{38B242B5-B831-4DD1-93C3-202BF81F87A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HetDierenrijk", "Dierenrijk\HetDierenrijk.csproj", "{14D0B2D3-4CAF-4297-9522-EA591F7729C4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{14D0B2D3-4CAF-4297-9522-EA591F7729C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{14D0B2D3-4CAF-4297-9522-EA591F7729C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{14D0B2D3-4CAF-4297-9522-EA591F7729C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{14D0B2D3-4CAF-4297-9522-EA591F7729C4}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6ADA9196-27A1-4A48-8210-D45413B16397}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6ADA9196-27A1-4A48-8210-D45413B16397}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6ADA9196-27A1-4A48-8210-D45413B16397}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -33,6 +29,10 @@ Global
 		{38B242B5-B831-4DD1-93C3-202BF81F87A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38B242B5-B831-4DD1-93C3-202BF81F87A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38B242B5-B831-4DD1-93C3-202BF81F87A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14D0B2D3-4CAF-4297-9522-EA591F7729C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14D0B2D3-4CAF-4297-9522-EA591F7729C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14D0B2D3-4CAF-4297-9522-EA591F7729C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14D0B2D3-4CAF-4297-9522-EA591F7729C4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

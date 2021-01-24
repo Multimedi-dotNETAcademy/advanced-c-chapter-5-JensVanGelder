@@ -1,22 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Bookmark_Manager
 {
     public partial class FormBookmarks : Form
     {
-        List<BookMark> bookMark = new List<BookMark>();
+        private List<BookMark> bookMark = new List<BookMark>();
+
         public FormBookmarks()
         {
             InitializeComponent();
-            bookMark.Add (new BookMark() { Naam = "Youtube", URL = "https://www.youtube.com/" });
+            bookMark.Add(new BookMark() { Naam = "Youtube", URL = "https://www.youtube.com/" });
         }
 
         private void FormBookmark_Load(object sender, EventArgs e)
@@ -28,13 +23,13 @@ namespace Bookmark_Manager
         {
             if (checkHidden.Checked)
             {
-                bookMark.Add(new HiddenBookMark() { Naam = txtName.Text+"(Incognito)", URL = txtURL.Text });
+                bookMark.Add(new HiddenBookMark() { Naam = txtName.Text + "(Incognito)", URL = txtURL.Text });
             }
             else
             {
                 bookMark.Add(new BookMark() { Naam = txtName.Text, URL = txtURL.Text });
             }
-            
+
             UpdateBookmarkList();
         }
 

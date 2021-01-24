@@ -1,15 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace AdvancedC_Chapter1
+﻿namespace AdvancedC_Chapter1
 {
-    class Cow:Mammal
+    internal class Cow : Mammal
     {
         public bool HasBell { get; set; }
         public string Spots { get; set; }
+
         public override string Move()
         {
             if (HasBell == true)
@@ -21,11 +16,13 @@ namespace AdvancedC_Chapter1
                 return "clopclop";
             }
         }
+
         public override string ShowInfo()
         {
             string add = $", {(HasBell ? "Has a Bell" : "")}, Has {Spots} kind of spots";
-            return base.ShowInfo()+add;
+            return base.ShowInfo() + add;
         }
+
         public override string MakeSound()
         {
             return "MOO";

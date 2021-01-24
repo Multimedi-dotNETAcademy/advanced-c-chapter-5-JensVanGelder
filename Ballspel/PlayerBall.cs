@@ -47,11 +47,11 @@ namespace Ballspel
             {
                 y = 0;
             }
-            if (x<0)
+            if (x < 0)
             {
                 x = 0;
             }
-            if (x >= Console.WindowWidth )
+            if (x >= Console.WindowWidth)
             {
                 vx = 0;
                 x = Console.WindowWidth - 1;
